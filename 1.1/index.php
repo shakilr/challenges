@@ -8,8 +8,9 @@ function twosum($array, $sum = 0 ) {
     for( $i = 0 ; $i < count($array); $i++ ) {
 
         for( $j = $i + 1; $j < count($array); $j++ ) {
+
             if( $array[$i] + $array[$j] == $sum )  {
-                $array =  [ $i, $j ];
+                $array = [ $i, $j ];
             }
         }
     }
