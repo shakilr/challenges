@@ -18,5 +18,5 @@ function twosum($array, $sum = 0 ) {
 }
 
 echo '<pre>';
-    print_r(twosum($array, 7));
+print_r( twosum($array, 4) );
 echo '</pre>';
