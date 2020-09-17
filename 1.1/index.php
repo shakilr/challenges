@@ -1,5 +1,5 @@
 <?php
-$array =  [2, 1, 4, 5, 2, 7, 4];
+$array = [2, 5, 9, 1, 3, 7, 2];
 
 function twosum($array, $sum = 0 ) {
 
@@ -10,12 +10,11 @@ function twosum($array, $sum = 0 ) {
         for( $j = $i + 1; $j < count($array); $j++ ) {
 
             if( $array[$i] + $array[$j] == $sum )  {
-                $array = [ $i, $j ];
+                return [ $i, $j ];
+                break;
             }
         }
     }
-
-   return $array;
 }
 
 echo '<pre>';
