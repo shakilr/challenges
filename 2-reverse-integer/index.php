@@ -17,8 +17,6 @@
     echo reverse(-345);
     echo '<hr /><br />';
 
-
-
     # Method no 2
     function reverse_do( $number = 0) {
         $reverse = 0;
